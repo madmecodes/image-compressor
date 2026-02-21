@@ -7,7 +7,9 @@
     "compress-img": "./compress.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node server.js"
   },
   "keywords": [
     "image",
@@ -22,6 +24,7 @@
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^14.0.3",
+    "express": "^4.22.1",
     "sharp": "^0.34.5"
   }
 }
